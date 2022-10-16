@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.win {
+  width: 60%;
+  background-color: rgb(169, 241, 243);
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.db {
+  width: 60%;
+  background-color: bisque;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.btn {
+  width: 200px;
+  height: 30px;
+  background-color: greenyellow;
+  border-color: greenyellow;
+  border-radius: 10px;
+}
+
+.btn2 {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(245, 173, 40);
+  border-color: rgb(245, 173, 40);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
