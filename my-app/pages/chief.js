@@ -5,7 +5,7 @@ import { VOTE_CONTRACT_ADDRESS, abi } from "../constants";
 import Layout from "../components/Layout";
 import styles from "../styles/Chief.module.css";
 
-function chief() {
+function Chief() {
   const [numVoters, setNumVoters] = useState();
   const [numCandidates, setNumCandidates] = useState();
   const [walletConnected, setWalletConnected] = useState(false);
@@ -200,4 +200,4 @@ function chief() {
   );
 }
 
-export default chief;
+export default Chief;

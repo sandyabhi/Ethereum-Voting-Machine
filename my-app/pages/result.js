@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { VOTE_CONTRACT_ADDRESS, abi } from "../constants";
 import Layout from "../components/Layout";
 
-function result() {
+function Result() {
   const [winName, setWinName] = useState("");
   const [numCandidates, setNumCandidates] = useState("");
   const [numVoters, setNumVoters] = useState("");
@@ -182,4 +182,4 @@ function result() {
   );
 }
 
-export default result;
+export default Result;
